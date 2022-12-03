@@ -136,4 +136,7 @@ STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/login'
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://www.swahili.live'
+]
 
