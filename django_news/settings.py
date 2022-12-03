@@ -140,3 +140,4 @@ CSRF_TRUSTED_ORIGINS = [
     'https://www.swahili.live'
 ]
 
+SECURE_SSL_REDIRECT = True
